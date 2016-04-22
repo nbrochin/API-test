@@ -21,7 +21,6 @@ function getRequest(q){
     part:'snippet',
     key:'AIzaSyDhcv5fxPkNS9EpFfuhJryGtMike4zwOPE',
     maxResults:20,
- 	pageToken: 0,
   };
 
   url = 'https://www.googleapis.com/youtube/v3/search';
