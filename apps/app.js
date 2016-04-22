@@ -10,7 +10,6 @@ $(function(){
     getRequest(q);
    $('li.topic-title').html(q);
   });
-});
 
 
 function getRequest(q){
