@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>YouTube API App</title>
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		<!-- Stylesheets -->
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!-- <link rel="stylesheet" href="styles/reset.css"> -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+	<div id="quiz">
+
+		<header> <!--Header -->	  
+			
+			<!-- QUIZ TOPIC CHOICES -->
+
+
+			<ul class="left-header-box">
+					<li class="app-title">YOU TUBE API - Query Tool - <span>conduct a search</li>
+					<div class='visible'>
+					<li class="topic-title" data-set="0">DOLPHINS</li>
+					<li class="topic-title" data-set="1">PUMAS</li>
+	 				<li class="topic-title" data-set="2">JAGUARS</li>
+	 				<li class="topic-title" data-set="3">TIGERS</li>
+					</div>
+			</ul>
+
+			<ul class="right-header-box">
+					<li class="total-score">145</li>
+			</ul>
+
+		</header>
+
+
+			<!-- logo text -->
+
+			<section class="control-panel"> <!-- Guessing Section -->
+
+				
+				
+
+	<!-- Questions Section -->
+	  <div class="trivia-questions"> 
+				<section id="QA-holder">
+	  
+			<div class="answer-choices">
+				<form id="search-term">
+					<input type="text" id="query">&nbsp;
+					<button class="bt btn-danger" type="submit" >search</button>
+				</form>
+			<br />
+			<div id="search-results"></div>
+				
+			</section>	
+			</div>
+		</section>
+		</section>
+		<footer>
+		<input type="hidden" id="pageToken" value="">
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button type="button" id="pageTokenPrev" value="" class="btn btn-default">Prev</button>
+                          <button type="button" id="pageTokenNext" value="" class="btn btn-default">Next</button>
+                        </div>
+                  	<div id="video-container"></div>
+			<ul class="footer-box">
+					
+					<li class="high-score" id="high-score-container">TOTAL RESULTS:</li>
+					<li class="app-instructions" id="howToplay"><a href="#" class="footer-links">HOW TO PLAY</a></li>
+					<li class="app-instructions" id="showHighScore"><a href="#" class="footer-links-sm">SHOW HIGH SCORE</a></li>
+					<li class="app-instructions" id="clearStorage"><a href="#" class="footer-links-sm">CLEAR</a></li>				
+    				
+			</ul>
+		</footer>
+	</div>
+		<!-- Modal Information Box -->
+		
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- 		<script src="https://use.typekit.net/luu5hzh.js"></script> -->
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+		<script type="text/javascript" src="apps/app.js"></script>
+		
+	</body>
+</html>
+
+
+
+
