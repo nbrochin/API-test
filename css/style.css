@@ -49,8 +49,8 @@ body {
 }
 
 #QA-holder {
-  background-color: #fbfbfb;
-  width: 1080px;
+  background-color: #eeeeee;
+  width: 1070px;
   margin: 0 auto;
   padding: 5px;
   box-sizing: border-box;
@@ -209,7 +209,7 @@ p.thumb-spacing {
 ---------------------------------------------------------------------------------*/
 
 .control-panel {
-	background-color: #fbfbfb;
+	background-color: #eeeeee;
 	width: 1110px;
   margin: 15px 20px 0 54px;
   padding: 25px;
